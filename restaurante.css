@@ -1,0 +1,88 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html::-webkit-scrollbar{
+    width: 5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(239, 239, 239);
+    border-radius: 5rem;
+}
+
+.background{
+    background-image: url(vegetais-ajustados-a-esquerda-de-uma-ardosia-preta.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5rem;
+    align-items:center ;
+}
+.logo img{
+    width: 70px;
+    height: auto;
+    margin-left: 5rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.C-icone{
+    margin-right: 5px;
+}
+.icone ion-icon{
+    color: rgb(245, 250, 255);
+    font-size: 2px;
+    cursor: pointer;
+}
+ul li a:hover{
+    text-transform: capitalize;
+    color:#8a765f;
+    border-bottom: solid 1px;
+}
+hr{
+    border-bottom: solid 0.1px;
+    color: #8a765f;
+    margin-top: 1rem;
+}
+
+.C-title{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    font-size: 25px;
+}
+.C-title h1{
+    color: #fff3f3;
+
+}
+.C-title p{
+    color: #fafafa;
+}
